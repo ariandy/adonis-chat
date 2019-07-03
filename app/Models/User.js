@@ -46,13 +46,15 @@ class User extends Model {
     return this.hasMany('App/Models/Message')
   }
 
-  Rooms () {
-    return this.hasOne('App/Models/User',sender_id, id)
+  Receivers () {
+    return this.hasOne('App/Models/Receiver')
   }
   
-  Rooms () {
-    return this.hasOne('App/Models/User',receiver_id, id)
+  Groups () {
+    return this.belongsToMany('App/Model/Group')
+               .pivotTable('user_group')
   }
+  
 }
 
 module.exports = User

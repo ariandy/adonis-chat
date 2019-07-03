@@ -5,12 +5,12 @@
 /** @typedef {import('@adonisjs/framework/src/View')} View */
 
 /**
- * Resourceful controller for interacting with groups
+ * Resourceful controller for interacting with receivers
  */
-class GroupController {
+class ReceiverController {
   /**
-   * Show a list of all groups.
-   * GET groups
+   * Show a list of all receivers.
+   * GET receivers
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -21,8 +21,8 @@ class GroupController {
   }
 
   /**
-   * Render a form to be used for creating a new group.
-   * GET groups/create
+   * Render a form to be used for creating a new receiver.
+   * GET receivers/create
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -33,8 +33,8 @@ class GroupController {
   }
 
   /**
-   * Create/save a new group.
-   * POST groups
+   * Create/save a new receiver.
+   * POST receivers
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -44,8 +44,8 @@ class GroupController {
   }
 
   /**
-   * Display a single group.
-   * GET groups/:id
+   * Display a single receiver.
+   * GET receivers/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -56,8 +56,8 @@ class GroupController {
   }
 
   /**
-   * Render a form to update an existing group.
-   * GET groups/:id/edit
+   * Render a form to update an existing receiver.
+   * GET receivers/:id/edit
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -68,8 +68,8 @@ class GroupController {
   }
 
   /**
-   * Update group details.
-   * PUT or PATCH groups/:id
+   * Update receiver details.
+   * PUT or PATCH receivers/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -79,8 +79,8 @@ class GroupController {
   }
 
   /**
-   * Delete a group with id.
-   * DELETE groups/:id
+   * Delete a receiver with id.
+   * DELETE receivers/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -90,4 +90,4 @@ class GroupController {
   }
 }
 
-module.exports = GroupController
+module.exports = ReceiverController

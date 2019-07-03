@@ -5,8 +5,10 @@ class UserController {
     let users = await User.all()
     return response.json(users)
   }
+
   async create ({ request, response, view }) {
   }
+
   async store ({ request, response }) {
     const userInfo = request.only(['name', 'email', 'password'])
     const user = new User()
@@ -16,6 +18,7 @@ class UserController {
     await user.save()
     return response.status(201).json(user)
   }
+
   async show ({params, response}) {
     const user = await User.find(params.id)
     return response.json(user)
@@ -46,4 +49,5 @@ class UserController {
     return response.status(204).json(null)
   }
 }
+
 module.exports = UserController

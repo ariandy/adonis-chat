@@ -8,10 +8,6 @@ class GroupSchema extends Schema {
     this.create('groups', (table) => {
       table.increments()
       table.string('groupname').notNullable()
-      table.integer('sender_id').unsigned()
-      table.foreign('sender_id').references('id').inTable('users').onDelete('RESTRICT')
-      table.integer('receiver_id').unsigned()
-      table.foreign('receiver_id').references('id').inTable('users').onDelete('RESTRICT')
       table.timestamps()
     })
   }
