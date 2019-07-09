@@ -42,17 +42,10 @@ class User extends Model {
     return this.hasMany('App/Models/Token')
   }
 
-  Messages () {
-    return this.hasMany('App/Models/Message')
-  }
-
-  Senders () {
-    return this.hasOne('App/Models/Group',sender_id, id)
+  userrooms () {
+    return this.hasMany('App/Models/UserRoom')
   }
   
-  Receivers () {
-    return this.hasOne('App/Models/Group',receiver_id, id)
-  }
 }
 
 module.exports = User

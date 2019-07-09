@@ -4,11 +4,18 @@
 const Model = use('Model')
 
 class Message extends Model {
-    Users () {
-        return this.belongsTo('/App/Models/User')
+    // static get hidden(){
+    //     return ['sender_id']
+    // }
+
+    users () {
+        return this.belongsTo('App/Models/User')
     }
-    Groups () {
-        return this.belongsTo('/App/Models/Group')
+    rooms () {
+        return this.belongsTo('App/Models/Room')
+    }
+    userrooms () {
+        return this.belongsTo('App/Models/UserRoom')
     }
 }
 
