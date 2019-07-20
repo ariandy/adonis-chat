@@ -13,10 +13,10 @@
 Chat App Backend - Build With AdonisJS
 
 ## Endpoints
-* POST api/auth/login, for login purpose.
-* GET /api/v1/rooms, to see all of the rooms list.
-* GET /api/v1/rooms/:id/chats, to see all off the message in room 
-* POST /api/v1/messages/, send a message
+* `POST api/auth/login`, for login purpose.
+* `GET /api/v1/rooms`, to see all of the rooms list.
+* `GET /api/v1/rooms/:id/chats`, to see all off the message in room 
+* `POST /api/v1/messages`, send a message
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
 * [`adonisjs`](https://adonisjs.com)
