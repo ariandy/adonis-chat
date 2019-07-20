@@ -2,6 +2,9 @@
   <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
 </a>
 
+## Introduction
+Chat App Backend - Build With AdonisJS
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -11,9 +14,6 @@
 
 ## Related Project
 * <a href="https://github.com/ariandy/chat-frontend">React Native - CHAT App</a>
-
-## Introduction
-Chat App Backend - Build With AdonisJS
 
 ## Endpoints
 * `POST api/auth/login`, for login purpose.
