@@ -1,7 +1,8 @@
+
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Endpoints](#endpoints)
 - [Requirements](#requirements)
 - [Contributors](#contributors)
 
@@ -10,36 +11,36 @@
 * <a href="https://github.com/feriferdinan/chat-app-backend">ExpressJS - CHAT App RESTfull API</a>
 
 ## Introduction
-Chat App - Build With React Native and Adonis
+Chat App Backend - Build With AdonisJS
 
-## Features
+## Endpoints
 * User can send a private message and group message
 * User can edit, delete own message
 * and more
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
-* [`react-native`](https://facebook.github.io/react-native/)
+* [`adonisjs`](https://adonisjs.com)
 
 
-## How To RUn
+## How To Run
 
 1. Clone this repository
    ```
-   $ git clone https://github.com/feriferdinan/chat-app.git
+   $ git clone https://github.com/ariandy/adonis-chat.git
    ```
 2. Install all depedencies on the package.json
    ```
-      cd chat-app
+      cd adonis-chat
       npm install
    ```
-3. Run chat-app
+3. Run the Adonis server
    ```
-   $ react-native run-android
+   $ adonis serve --dev
    ```
 
 ## Website 
 <a href="">
-  <img src="https://img.shields.io/badge/Project-Website-blue.svg"/>
+  <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
 </a>
 
 
