@@ -7,16 +7,16 @@
 - [Contributors](#contributors)
 
 ## Related Project
-* <a href="https://github.com/feriferdinan/chat-app-backend-adonis">AdonisJs - CHAT App RESTfull API</a>
-* <a href="https://github.com/feriferdinan/chat-app-backend">ExpressJS - CHAT App RESTfull API</a>
+* <a href="https://github.com/ariandy/chat-frontend">React Native - CHAT App</a>
 
 ## Introduction
 Chat App Backend - Build With AdonisJS
 
 ## Endpoints
-* User can send a private message and group message
-* User can edit, delete own message
-* and more
+* POST api/auth/login, for login purpose.
+* GET /api/v1/rooms, to see all of the rooms list.
+* GET /api/v1/rooms/:id/chats, to see all off the message in room 
+* POST /api/v1/messages/, send a message
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
 * [`adonisjs`](https://adonisjs.com)
