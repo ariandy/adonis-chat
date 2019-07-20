@@ -15,8 +15,9 @@ Chat App Backend - Build With AdonisJS
 ## Endpoints
 * `POST api/auth/login`, for login purpose.
 * `GET /api/v1/rooms`, to see all of the rooms list.
-* `GET /api/v1/rooms/:id/chats`, to see all off the message in room 
-* `POST /api/v1/messages`, send a message
+* `GET /api/v1/rooms/:id/chats`, to see all off the message in room.
+* `POST /api/v1/messages`, send a message.
+
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
 * [`adonisjs`](https://adonisjs.com)
@@ -30,10 +31,15 @@ Chat App Backend - Build With AdonisJS
    ```
 2. Install all depedencies on the package.json
    ```
-      cd adonis-chat
-      npm install
+   $ cd adonis-chat
+   $ npm install
    ```
-3. Run the Adonis server
+3. Just run the migration and seed
+   ```
+   $ adonis migration:run
+   $ adonis seed
+   ```
+4. Run the Adonis server
    ```
    $ adonis serve --dev
    ```
