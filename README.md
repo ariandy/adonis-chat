@@ -1,28 +1,66 @@
-# Adonis API application
+## Table of Contents
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Screenshots](#screenshots)
+- [Contributors](#contributors)
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Related Project
+* <a href="https://github.com/feriferdinan/chat-app-backend-adonis">AdonisJs - CHAT App RESTfull API</a>
+* <a href="https://github.com/feriferdinan/chat-app-backend">ExpressJS - CHAT App RESTfull API</a>
 
-## Setup
+## Introduction
+Chat App - Build With React Native and Adonis
 
-Use the adonis command to install the blueprint
+## Features
+* User can send a private message and group message
+* User can edit, delete own message
+* and more
+## Requirements
+* [`npm`](https://www.npmjs.com/get-npm)
+* [`react-native`](https://facebook.github.io/react-native/)
 
-```bash
-adonis new yardstick --api-only
-```
 
-or manually clone the repo and then run `npm install`.
+## How To RUn
+
+1. Clone this repository
+   ```
+   $ git clone https://github.com/feriferdinan/chat-app.git
+   ```
+2. Install all depedencies on the package.json
+   ```
+      cd chat-app
+      npm install
+   ```
+3. Run chat-app
+   ```
+   $ react-native run-android
+   ```
+
+## Screenshoot
+<div align="center">
+    <img width="200" src="">
+
+</div>
+
+## Website 
+<a href="">
+  <img src="https://img.shields.io/badge/Project-Website-blue.svg"/>
+</a>
 
 
-### Migrations
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+## Contributors
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/ariandy">
+          <img width="100" src="https://avatars3.githubusercontent.com/u/37676101?s=460&v=4" alt="ariandy"><br/>
+          <sub><b>ariandy </b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</center>
