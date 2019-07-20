@@ -1,3 +1,6 @@
+<a href="">
+  <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
+</a>
 
 ## Table of Contents
 
@@ -43,24 +46,3 @@ Chat App Backend - Build With AdonisJS
    ```
    $ adonis serve --dev
    ```
-
-## Website 
-<a href="">
-  <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
-</a>
-
-
-
-## Contributors
-<center>
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/ariandy">
-          <img width="100" src="https://avatars3.githubusercontent.com/u/37676101?s=460&v=4" alt="ariandy"><br/>
-          <sub><b>ariandy </b></sub>
-        </a>
-      </td>
-    </tr>
-  </table>
-</center>
