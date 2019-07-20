@@ -3,7 +3,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
-- [Screenshots](#screenshots)
 - [Contributors](#contributors)
 
 ## Related Project
@@ -37,12 +36,6 @@ Chat App - Build With React Native and Adonis
    ```
    $ react-native run-android
    ```
-
-## Screenshoot
-<div align="center">
-    <img width="200" src="">
-
-</div>
 
 ## Website 
 <a href="">
